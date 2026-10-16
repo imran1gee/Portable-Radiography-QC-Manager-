@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS files
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+build_*/
+dist_*/
+*.app/
+*.dmg
+
+# Generated reports and local data
+reports/
+data/
+*.xlsx
+*.csv
+
+# Backups
+backups/
+*.bak*
+*.backup
+*.before_*
+*.previous
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Institutional assets (not cleared for public distribution)
+assets/institution_logo.png
